@@ -7,10 +7,7 @@ const Navigation = () => {
         <div className='sidebar'>
           <div className="id">
             <div className="idContent">
-
-              <img src={require("../media/PhotoProfil-trv.jpg")} alt="PicProfil" />
-              
-            
+              <img src={require("../media/PhotoProfil-trv-175.jpg")} alt="PicProfil" />
               <h3>Mathis JANCEL</h3>
             </div>
           </div>
@@ -18,25 +15,25 @@ const Navigation = () => {
           <div className="navigation">
             <ul>
               <li>
-                <NavLink exact to="/" activeClasseName="navActive">
+                <NavLink end to="/">
                   <i className="fas fa-home"></i>
                   <span>Accueil</span>
                 </NavLink>
               </li>
               <li>
-                <NavLink exact to="/knowledges" activeClasseName="navActive">
+                <NavLink exact to="/competences" activeClasseName="active">
                   <i className="fas fa-mountain"></i>
                   <span>Compétences</span>
                 </NavLink>
               </li>
               <li>
-                <NavLink exact to="/portfolio" activeClasseName="navActive">
+                <NavLink exact to="/portfolio" activeClasseName="active">
                   <i className="fas fa-folder-open"></i>
                   <span>PortFolio</span>
                 </NavLink>
               </li>
               <li>
-                <NavLink exact to="/contact" activeClasseName="navActive">
+                <NavLink exact to="/contact" activeClasseName="active">
                   <i className="fas fa-user"></i>
                   <span>Contact</span>
                 </NavLink>

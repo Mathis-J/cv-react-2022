@@ -4,8 +4,8 @@ import Navigation from '../components/Navigation';
 const Knowledges = () => {
     return (
         <div>
-            <h1>Knowledges</h1>
             <Navigation />
+            <h1>Knowledges</h1>
         </div>
     );
 };
