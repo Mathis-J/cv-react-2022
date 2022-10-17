@@ -151,6 +151,10 @@
                 display: flex;
                 justify-content: space-between;
 
+                li {
+                    padding: .8rem .8rem;
+                }
+
                 span {
                     margin-left: 1.5rem !important;
                 }
