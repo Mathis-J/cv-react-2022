@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Knowledges from './pages/Knowledges';
@@ -12,11 +13,11 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/competences" element={<Knowledges />} />
-          <Route path="/portfolio" element={<PortFolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route element={<NotFound />} />
+          <Route exact path='/' element={<Home />} />
+          <Route path='/competences' element={<Knowledges />} />
+          <Route path='/portfolio' element={<PortFolio />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
