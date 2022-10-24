@@ -1,56 +1,53 @@
 export const portfolioData = [
   {
     id: 1,
-    name: 'ipsum.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project1.JPG'
+    name: "Trieur des drapeaux",
+    languages: ["all", "javascript", "react", "html", "css/scss"],
+    languagesIcons: [
+      "fab fa-js",
+      "fab fa-react",
+      "fab fa-html5",
+      "fab fa-css3-alt",
+    ],
+    source: "https://github.com/Mathis-J/projet-react-drapeaux",
+    info: "Projet en reconstruction",
+    picture: "./media/project2.png",
   },
   {
     id: 2,
-    name: 'lorem.fr',
-    languages: ['javascript','react'],
-    languagesIcons: ['fab fa-js','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project2.JPG'
+    name: "Mon premier projet -CV",
+    languages: ["all", "javascript", "php", "css/scss", "html"],
+    languagesIcons: [
+      "fab fa-js",
+      "fab fa-php",
+      "fab fa-css3-alt",
+      "fab fa-html5",
+    ],
+    source: "https://github.com/Mathis-J/Mon-CV",
+    info: "Mon premier projet afin de réaliser un site regroupant la base de la programmation informatique à travers mon CV - Cv en ligne avec portfolio (n’est plus actif)",
+    picture: "./media/project3.png",
   },
   {
     id: 3,
-    name: 'dolorset.fr',
-    languages: ['javascript','php','css'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project3.JPG'
+    name: "Machina",
+    languages: ["all", "C#"],
+    languagesIcons: ["fab fa-c"],
+    source: "https://github.com/Mathis-J/Machina",
+    info: "Machina : Le but de ce projet était de créer une application mobile en C#. Je me suis donc renseigné et réaliser un exercice en utilisant l’API de Microsoft Azure afin de déterminer l'âge de l’utilisateur à partir d’une photo de son visage. Le but était de \"détecter\" l'âge à travers une photo . J'ai donc récupéré l'API “visage” de Microsoft Azure . Codé avec C# et Xamarin Forms et l'IDE Visual Studio Code",
+    picture: "./media/project1.png",
   },
   {
     id: 4,
-    name: 'laboriosam.fr',
-    languages: ['javascript','php','react'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project4.JPG'
+    name: "CV en React",
+    languages: ["all", "javascript", "react", "html", "css/scss"],
+    languagesIcons: [
+      "fab fa-js",
+      "fab fa-react",
+      "fab fa-html5",
+      "fab fa-sass",
+    ],
+    source: "https://github.com/Mathis-J/cv-react-2022",
+    info: "Voici mon CV que vous regarder actuellement, le code source est disponible sur mon gitHub sur le bouton ci-dessus",
+    picture: "./media/project4.png",
   },
-  {
-    id: 5,
-    name: 'repudiante.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project5.JPG'
-  },
-  {
-    id: 6,
-    name: 'test.io',
-    languages: ['javascript','react', 'css'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project6.JPG'
-  },
-]
+];

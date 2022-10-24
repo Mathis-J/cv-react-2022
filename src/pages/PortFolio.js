@@ -1,16 +1,14 @@
-import React from 'react';
-import Navigation from '../components/Navigation';
-
+import React from "react";
+import Navigation from "../components/Navigation";
+import ProjectList from "../components/portfolio/ProjectList";
 
 const PortFolio = () => {
-    return (
-        <div className="portfolio">
-            <Navigation />
-            <div className="portfolioContent">
-                <h1> EN COURS</h1>
-            </div>
-        </div>
-    );
+  return (
+    <div className="portfolio">
+      <Navigation />
+      <ProjectList />
+    </div>
+  );
 };
 
 export default PortFolio;
